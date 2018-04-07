@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to Jonathan's React Demo</h1>
+          <h1 className="App-title">Welcome to Jonathans React Demo</h1>
 		 <h3>This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App</a>.<br />
 		 This sets up the environment so react can work</h3>
         </header>
