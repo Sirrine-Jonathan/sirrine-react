@@ -1,0 +1,55 @@
+$dark-color: #ddd;
+$light-color: #acf;
+$highlight-color: #cc2244;
+$headerbox-padding:50px;
+
+body {
+	background-color: black;
+}
+
+.App-logo {
+	border-radius: 5px;
+}
+
+.App-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  background-color: $light-color;
+  padding: 20px;
+  color: black;
+}
+
+#left-head {
+	display: inline-block;
+	border-right: 2px solid black;
+	padding-right: $headerbox-padding;
+}
+
+#right-head {
+	padding-left: $headerbox-padding;
+	width: 40%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+#color-div {
+  background-color: $light-color;
+  font-size: large;
+  border-radius: 15px;
+  width: 50%;
+  text-align: center;
+  margin: 50px auto;
+  padding: 5%; 
+}
+
+a {
+	color: $highlight-color;
+}
+
+input {
+	font-size: 1.5em;
+	padding:5px;
+}
